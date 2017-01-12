@@ -1,0 +1,28 @@
+import org.junit.Test;
+
+import junit.framework.TestCase;
+
+public class BinarySearchTest extends TestCase {
+	protected int[] whitelist;
+
+	protected void setUp() {
+		int n = 100;
+		int i = 0;
+		whitelist = new int[n];
+		while (i < n) { 
+			whitelist[i] = i;
+		}
+	}
+
+	@Test
+	public void testBinarySearch() {
+		int found = BinarySearch.rank(23, whitelist);
+		assertEquals(found, 23);
+	}
+
+	@Test
+	public void testBinarySearchNotFound() {
+		
+	}
+
+}

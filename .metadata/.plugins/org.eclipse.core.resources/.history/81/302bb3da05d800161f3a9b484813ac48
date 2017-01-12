@@ -1,0 +1,9 @@
+import java.util.Arrays;
+
+
+public class BinarySearch {
+	public static int rank(int key, int[] a) {
+		int i = 5;
+		return i;
+	}
+}

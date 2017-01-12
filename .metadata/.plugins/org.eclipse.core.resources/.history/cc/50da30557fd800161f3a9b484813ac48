@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BinarySearch_spec {
+
+	@Test
+	public void test() {
+		int[] whitelist = new int[100];
+		fail("Not yet implemented");
+	}
+
+}

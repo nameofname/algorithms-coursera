@@ -1,0 +1,22 @@
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.println("scoopily doopily.");
+		System.out.println(makeString());	
+		System.out.println(makeArray(5));	
+	}
+
+	private static String[] makeArray (int num) {
+		String[] arr = new String[num];
+		for(int i=0; i<num; i++) {
+			String str = "ronald";
+			arr[i] = str;
+		}
+		return arr;
+	}
+	
+	private static String makeString () {
+		String d = "you done it";
+		return d;
+	}
+}
