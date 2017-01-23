@@ -1,6 +1,6 @@
 import org.junit.Test;
-
 import junit.framework.TestCase;
+
 
 public class BinarySearchTest extends TestCase {
 	protected int[] whitelist;
@@ -22,11 +22,10 @@ public class BinarySearchTest extends TestCase {
 	}
 
 	@Test
-	public void testBinarySearchNotFound() {
-		System.out.println("lets get some!!!");
+	public void testBinarySearchNotFound() { 
+//		System.out.println("This is the guy here : " + java.util.Arrays.toString(whitelist));
 		int found = BinarySearch.rank(23, whitelist);
-		System.out.println("This is the guy here : " + found);
-		assertEquals(found, 55); // this should be marked as a failure, no idea why it isn't 
+		assertEquals(found, 23); // this should be marked as a failure, no idea why it isn't 
 	}
 
 }

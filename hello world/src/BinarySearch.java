@@ -6,8 +6,7 @@ public class BinarySearch {
 		int lo = 0;
 		int hi = a.length - 1;
 		while (lo <= hi) {
-			int mid = (hi - lo) / 2;
-			System.out.println("one more time " + lo + " : " + hi );
+			int mid = lo + (hi - lo) / 2;
 			// key is the key to find. search through the ordered list
 			// and find the mid point each time. keep narrowing your
 			// search by re-assigning the lo and high to search through. 
